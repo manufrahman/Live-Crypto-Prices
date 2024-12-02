@@ -71,10 +71,4 @@ Customize the plugin’s CSS in the `style.css` file to match your website's des
 
 ---
 
-## Support
-
-If you encounter any issues or have suggestions for improvements, feel free to [open an issue](https://github.com/your-username/crypto-prices-plugin/issues) or contact me at **mrahmanofficial@gmail.com**.
-
----
-
 Let me know if you'd like me to tailor it further for your specific GitHub repository or requirements!
