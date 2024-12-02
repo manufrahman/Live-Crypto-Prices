@@ -1,0 +1,65 @@
+/* style.css */
+.crypto-prices {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #1a73e8, #3ecbf2);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.crypto-prices h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.crypto-prices ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.crypto-prices li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.crypto-prices li:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.crypto-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.crypto-price {
+    font-size: 16px;
+}
+
+.change {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.change.up {
+    color: #4caf50; /* Green for upward movement */
+}
+
+.change.down {
+    color: #f44336; /* Red for downward movement */
+}
